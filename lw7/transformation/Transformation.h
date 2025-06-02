@@ -89,11 +89,13 @@ private:
 	static constexpr const char* vertexShaderSource = R"(
 uniform float progress;
 
-float z1(float x, float y) {
+float z1(float x, float y)
+{
 	return x * x + y * y;
 }
 
-float z2(float x, float y) {
+float z2(float x, float y)
+{
 	return x * x * x - 3.0 * x * y * y;
 }
 
