@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/shader.dir/__/base/BaseWindow.cpp.o CMakeFiles/shader.dir/__/shader/Program.cpp.o CMakeFiles/shader.dir/Window.cpp.o CMakeFiles/shader.dir/main.cpp.o -o shader  /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so -lGLEW

@@ -9,7 +9,7 @@ class Shader
 {
 public:
 	explicit Shader(GLenum type)
-		: m_shader{ glCreateShader(type) }
+		: m_shader{ __glewCreateShader(type) }
 	{
 		if (!m_shader)
 		{
@@ -33,25 +33,25 @@ public:
 
 	~Shader()
 	{
-		glDeleteShader(m_shader);
+		__glewDeleteShader(m_shader);
 	}
 
 	void SetSource(const char* text) const noexcept
 	{
 		assert(text);
 		assert(m_shader);
-		glShaderSource(m_shader, 1, &text, nullptr);
+		__glewShaderSource(m_shader, 1, &text, nullptr);
 	}
 
 	void Compile() const noexcept
 	{
 		assert(m_shader);
-		glCompileShader(m_shader);
+		__glewCompileShader(m_shader);
 	}
 
 	void GetParameter(GLenum paramName, GLint* p) const noexcept
 	{
-		glGetShaderiv(m_shader, paramName, p);
+		__glewGetShaderiv(m_shader, paramName, p);
 	}
 
 	[[nodiscard]] std::string GetInfoLog() const
@@ -60,7 +60,7 @@ public:
 		GetParameter(GL_INFO_LOG_LENGTH, &infoLogLength);
 		std::string log(static_cast<size_t>(infoLogLength), ' ');
 		GLsizei actualSize = 0;
-		glGetShaderInfoLog(m_shader, infoLogLength, &actualSize, log.data());
+		__glewGetShaderInfoLog(m_shader, infoLogLength, &actualSize, log.data());
 		log.resize(static_cast<size_t>(actualSize));
 		return log;
 	}

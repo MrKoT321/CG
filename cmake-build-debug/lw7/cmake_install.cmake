@@ -1,4 +1,4 @@
-# Install script for directory: /home/vladimirfedoseev/project/CG/lw7
+# Install script for directory: /home/vladimir.fedoseev/study/CG/lw7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/vladimirfedoseev/project/CG/cmake-build-debug/lw7/install_local_manifest.txt"
+  file(WRITE "/home/vladimir.fedoseev/study/CG/cmake-build-debug/lw7/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

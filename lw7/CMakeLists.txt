@@ -12,21 +12,24 @@ set(SHADER_SOURCES
         ../shader/ShaderProgram.h
 )
 
-
-add_executable(canabola
-        ${BASE_SOURCES}
-        ${SHADER_SOURCES}
-        canabola/Canabola.h
-        canabola/Window.cpp
-        canabola/Window.h
-        canabola/main.cpp
+set(WINDOW
+        Window.cpp
+        Window.h
 )
 
-add_executable(test test.cpp)
+
+add_executable(shader
+        ${BASE_SOURCES}
+        ${SHADER_SOURCES}
+        ${WINDOW}
+        canabola/Canabola.h
+        transformation/Transformation.h
+        main.cpp
+)
+
 
 find_package(glfw3 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 
-target_link_libraries(canabola glfw ${OPENGL_LIBRARIES} GLEW)
-target_link_libraries(test glfw ${OPENGL_LIBRARIES} GLEW)
+target_link_libraries(shader glfw ${OPENGL_LIBRARIES} GLEW)

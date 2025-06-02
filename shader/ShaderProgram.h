@@ -9,7 +9,7 @@ class ShaderProgram
 {
 public:
 	ShaderProgram()
-		: m_program{ glCreateProgram() }
+		: m_program{ __glewCreateProgram() }
 	{
 		if (!m_program)
 		{
@@ -24,7 +24,7 @@ public:
 
 	~ShaderProgram()
 	{
-		glDeleteProgram(m_program);
+		__glewDeleteProgram(m_program);
 	}
 
 	ShaderProgram& operator=(ShaderProgram&& rhs) noexcept
@@ -37,19 +37,19 @@ public:
 	{
 		assert(m_program);
 		assert(shader);
-		glAttachShader(m_program, shader);
+		__glewAttachShader(m_program, shader);
 	}
 
 	void Link() noexcept
 	{
 		assert(m_program);
-		glLinkProgram(m_program);
+		__glewLinkProgram(m_program);
 	}
 
 	void Validate() noexcept
 	{
 		assert(m_program);
-		glValidateProgram(m_program);
+		__glewValidateProgram(m_program);
 	}
 
 	bool IsValid() const noexcept
@@ -70,7 +70,7 @@ public:
 	{
 		assert(m_program);
 		assert(param);
-		glGetProgramiv(m_program, paramName, param);
+		__glewGetProgramiv(m_program, paramName, param);
 	}
 
 	std::string GetInfoLog() const
@@ -80,7 +80,7 @@ public:
 		std::string log(static_cast<size_t>(bufSize), ' ');
 
 		GLsizei actualLength;
-		glGetProgramInfoLog(m_program, static_cast<GLsizei>(bufSize), &actualLength, log.data());
+		__glewGetProgramInfoLog(m_program, static_cast<GLsizei>(bufSize), &actualLength, log.data());
 		log.resize(static_cast<size_t>(actualLength));
 
 		return log;
@@ -88,7 +88,7 @@ public:
 
 	[[nodiscard]] GLint GetUniformLocation(const GLchar* name) const
 	{
-		return glGetUniformLocation(m_program, name);
+		return __glewGetUniformLocation(m_program, name);
 	}
 
 	operator GLuint() const noexcept

@@ -1,5 +1,27 @@
-/home/vladimirfedoseev/program/clion-2025.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/vladimirfedoseev/program/clion-2025.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/vladimirfedoseev/project/CG -B /home/vladimirfedoseev/project/CG/cmake-build-debug
+/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/vladimir.fedoseev/study/CG -B /home/vladimir.fedoseev/study/CG/cmake-build-debug
 -- WARNING: you are using the obsolete 'GLU' package, please use 'OpenGL' instead
--- Configuring done (0.2s)
+CMake Deprecation Warning at /usr/lib/cmake/glm/glmConfig.cmake:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  lw5/CMakeLists.txt:11 (find_package)
+
+
+CMake Deprecation Warning at /usr/lib/cmake/glm/glmConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  lw5/CMakeLists.txt:11 (find_package)
+
+
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/vladimirfedoseev/project/CG/cmake-build-debug
+-- Build files have been written to: /home/vladimir.fedoseev/study/CG/cmake-build-debug
