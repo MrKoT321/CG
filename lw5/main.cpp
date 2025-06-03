@@ -1,6 +1,11 @@
-#include <iostream>
+#include "../base//GLFWInitializer.h"
+#include "labyrinth/Window.h"
 
 int main()
 {
-    return EXIT_SUCCESS;
+	GLFWInitializer initGLFW;
+	Window window{ 800, 600, "Labyrinth" };
+	window.Run();
+
+	return EXIT_SUCCESS;
 }

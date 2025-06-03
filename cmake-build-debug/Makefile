@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named maze
+# Target rules for targets named labyrinth
 
 # Build rule for target.
-maze: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maze
-.PHONY : maze
+labyrinth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 labyrinth
+.PHONY : labyrinth
 
 # fast build rule for target.
-maze/fast:
-	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/build
-.PHONY : maze/fast
+labyrinth/fast:
+	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/build
+.PHONY : labyrinth/fast
 
 #=============================================================================
 # Target rules for targets named shader
@@ -150,7 +150,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... maze"
+	@echo "... labyrinth"
 	@echo "... shader"
 .PHONY : help
 

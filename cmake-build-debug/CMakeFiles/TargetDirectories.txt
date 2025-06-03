@@ -1,6 +1,6 @@
 /home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5/CMakeFiles/maze.dir
+/home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5/CMakeFiles/labyrinth.dir
 /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5/CMakeFiles/edit_cache.dir
 /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5/CMakeFiles/rebuild_cache.dir
 /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw7/CMakeFiles/shader.dir

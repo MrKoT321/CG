@@ -8,7 +8,7 @@ CMake Deprecation Warning at /usr/lib/cmake/glm/glmConfig.cmake:1 (cmake_minimum
   to tell CMake that the project requires at least <min> but has been updated
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
-  lw5/CMakeLists.txt:11 (find_package)
+  lw5/CMakeLists.txt:8 (find_package)
 
 
 CMake Deprecation Warning at /usr/lib/cmake/glm/glmConfig.cmake:2 (cmake_policy):
@@ -19,7 +19,7 @@ CMake Deprecation Warning at /usr/lib/cmake/glm/glmConfig.cmake:2 (cmake_policy)
   to tell CMake that the project requires at least <min> but has been updated
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
-  lw5/CMakeLists.txt:11 (find_package)
+  lw5/CMakeLists.txt:8 (find_package)
 
 
 -- Configuring done (0.1s)

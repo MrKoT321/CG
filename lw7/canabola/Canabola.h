@@ -2,6 +2,7 @@
 
 #include "../../shader/Program.h"
 #include <cmath>
+#include <iostream>
 
 class Canabola
 {
@@ -10,10 +11,10 @@ public:
 		: m_program(R"(
 float calculateCanabolaR(float x)
 {
-	return (1.0 + sin(x)) * (1.0 + 0.9 * cos(8.0 * x)) * (1.0 + 0.1 * cos(24.0 * x)) * (0.5 + 0.2 * cos(140.0 * x));
+	return (1.0 + sin(x)) * (1.0 + 0.8 * cos(8.0 * x)) * (1.0 + 0.1 * cos(20.0 * x)) * (0.5 + 0.2 * cos(140.0 * x));
 }
 
-const vec4 color1 = vec4(0.3, 0.6, 0.3, 1.0);
+const vec4 color1 = vec4(1.0, 0, 0, 1.0);
 const vec4 color2 = vec4(0, 1.0, 0, 1.0);
 
 void main()
@@ -26,7 +27,7 @@ void main()
 	pos.x = canabolaR * cos(x);
 
 	gl_Position = gl_ModelViewProjectionMatrix * pos;
-	gl_FrontColor = mix(color1, color2, mod(pos.y, 0.1) * 10.0);
+	gl_FrontColor = mix(color1, color2, mod(sin(x), 0.01) * 100.0);
 }
 )",
 			  R"(

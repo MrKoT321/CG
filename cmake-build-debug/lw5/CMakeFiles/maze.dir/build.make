@@ -86,14 +86,142 @@ lw5/CMakeFiles/maze.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze.dir/main.cpp.s"
 	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/main.cpp -o CMakeFiles/maze.dir/main.cpp.s
 
+lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o: /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Window.cpp
+lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o -MF CMakeFiles/maze.dir/labyrinth/Window.cpp.o.d -o CMakeFiles/maze.dir/labyrinth/Window.cpp.o -c /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Window.cpp
+
+lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze.dir/labyrinth/Window.cpp.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Window.cpp > CMakeFiles/maze.dir/labyrinth/Window.cpp.i
+
+lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze.dir/labyrinth/Window.cpp.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Window.cpp -o CMakeFiles/maze.dir/labyrinth/Window.cpp.s
+
+lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o: /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Labyrinth.cpp
+lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o -MF CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o.d -o CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o -c /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Labyrinth.cpp
+
+lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Labyrinth.cpp > CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.i
+
+lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/labyrinth/Labyrinth.cpp -o CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.s
+
+lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o: /home/vladimir.fedoseev/study/CG/base/BaseWindow.cpp
+lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o -MF CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o.d -o CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o -c /home/vladimir.fedoseev/study/CG/base/BaseWindow.cpp
+
+lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze.dir/__/base/BaseWindow.cpp.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladimir.fedoseev/study/CG/base/BaseWindow.cpp > CMakeFiles/maze.dir/__/base/BaseWindow.cpp.i
+
+lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze.dir/__/base/BaseWindow.cpp.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladimir.fedoseev/study/CG/base/BaseWindow.cpp -o CMakeFiles/maze.dir/__/base/BaseWindow.cpp.s
+
+lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o: /home/vladimir.fedoseev/study/CG/texture/TextureLoader.cpp
+lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o -MF CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o.d -o CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o -c /home/vladimir.fedoseev/study/CG/texture/TextureLoader.cpp
+
+lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vladimir.fedoseev/study/CG/texture/TextureLoader.cpp > CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.i
+
+lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vladimir.fedoseev/study/CG/texture/TextureLoader.cpp -o CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.s
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o: /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/SOIL.c
+lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o -MF CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o.d -o CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o -c /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/SOIL.c
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/maze.dir/lib/soil/src/SOIL.c.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/SOIL.c > CMakeFiles/maze.dir/lib/soil/src/SOIL.c.i
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/maze.dir/lib/soil/src/SOIL.c.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/SOIL.c -o CMakeFiles/maze.dir/lib/soil/src/SOIL.c.s
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o: /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_DXT.c
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o -MF CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o.d -o CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o -c /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_DXT.c
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_DXT.c > CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.i
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_DXT.c -o CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.s
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o: /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_helper.c
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o -MF CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o.d -o CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o -c /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_helper.c
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/maze.dir/lib/soil/src/image_helper.c.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_helper.c > CMakeFiles/maze.dir/lib/soil/src/image_helper.c.i
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/maze.dir/lib/soil/src/image_helper.c.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/image_helper.c -o CMakeFiles/maze.dir/lib/soil/src/image_helper.c.s
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o: lw5/CMakeFiles/maze.dir/flags.make
+lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o: /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/stb_image_aug.c
+lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o: lw5/CMakeFiles/maze.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o -MF CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o.d -o CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o -c /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/stb_image_aug.c
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.i"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/stb_image_aug.c > CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.i
+
+lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.s"
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir.fedoseev/study/CG/lw5/lib/soil/src/stb_image_aug.c -o CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.s
+
 # Object files for target maze
 maze_OBJECTS = \
-"CMakeFiles/maze.dir/main.cpp.o"
+"CMakeFiles/maze.dir/main.cpp.o" \
+"CMakeFiles/maze.dir/labyrinth/Window.cpp.o" \
+"CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o" \
+"CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o" \
+"CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o" \
+"CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o" \
+"CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o" \
+"CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o" \
+"CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o"
 
 # External object files for target maze
 maze_EXTERNAL_OBJECTS =
 
 lw5/maze: lw5/CMakeFiles/maze.dir/main.cpp.o
+lw5/maze: lw5/CMakeFiles/maze.dir/labyrinth/Window.cpp.o
+lw5/maze: lw5/CMakeFiles/maze.dir/labyrinth/Labyrinth.cpp.o
+lw5/maze: lw5/CMakeFiles/maze.dir/__/base/BaseWindow.cpp.o
+lw5/maze: lw5/CMakeFiles/maze.dir/__/texture/TextureLoader.cpp.o
+lw5/maze: lw5/CMakeFiles/maze.dir/lib/soil/src/SOIL.c.o
+lw5/maze: lw5/CMakeFiles/maze.dir/lib/soil/src/image_DXT.c.o
+lw5/maze: lw5/CMakeFiles/maze.dir/lib/soil/src/image_helper.c.o
+lw5/maze: lw5/CMakeFiles/maze.dir/lib/soil/src/stb_image_aug.c.o
 lw5/maze: lw5/CMakeFiles/maze.dir/build.make
 lw5/maze: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libGLX.so
@@ -103,10 +231,11 @@ lw5/maze: /usr/lib/x86_64-linux-gnu/libICE.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libX11.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libXext.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
+lw5/maze: /usr/lib/x86_64-linux-gnu/libglut.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libGLX.so
 lw5/maze: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 lw5/maze: lw5/CMakeFiles/maze.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable maze"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable maze"
 	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug/lw5 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/maze.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

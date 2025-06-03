@@ -3,6 +3,7 @@
 
 #include "../base/BaseWindow.h"
 #include "../base/GLEWInitializer.h"
+#include "flag/FlagChina.h"
 #include "transformation/Transformation.h"
 
 #include <glm/ext/matrix_transform.hpp>
@@ -29,6 +30,7 @@ private:
 	std::optional<GLEWInitializer> m_glewInitializer;
 	std::optional<Canabola> m_canabola;
 	std::optional<Transformation> m_transform;
+	std::optional<FlagChina> m_flag;
 
 	static constexpr double DISTANCE_TO_ORIGIN = 4;
 	bool m_leftButtonPressed = false;

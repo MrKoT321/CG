@@ -92,6 +92,7 @@ void Window::InitShaders()
 {
 	m_canabola.emplace();
 	m_transform.emplace();
+	m_flag.emplace();
 }
 
 void Window::Draw(int width, int height)
@@ -105,8 +106,9 @@ void Window::Draw(int width, int height)
 	SetupCameraMatrix();
 
 //	m_canabola->Render();
-	m_transform->Render();
-	m_transform->Update();
+//	m_transform->Render();
+//	m_transform->Update();
+	m_flag->Render();
 }
 
 void Window::SetupCameraMatrix()

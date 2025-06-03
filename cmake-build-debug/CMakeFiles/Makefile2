@@ -86,11 +86,11 @@ clean: lw7/clean
 # Directory level rules for directory lw5
 
 # Recursive "all" directory target.
-lw5/all: lw5/CMakeFiles/maze.dir/all
+lw5/all: lw5/CMakeFiles/labyrinth.dir/all
 .PHONY : lw5/all
 
 # Recursive "codegen" directory target.
-lw5/codegen: lw5/CMakeFiles/maze.dir/codegen
+lw5/codegen: lw5/CMakeFiles/labyrinth.dir/codegen
 .PHONY : lw5/codegen
 
 # Recursive "preinstall" directory target.
@@ -98,7 +98,7 @@ lw5/preinstall:
 .PHONY : lw5/preinstall
 
 # Recursive "clean" directory target.
-lw5/clean: lw5/CMakeFiles/maze.dir/clean
+lw5/clean: lw5/CMakeFiles/labyrinth.dir/clean
 .PHONY : lw5/clean
 
 #=============================================================================
@@ -121,36 +121,36 @@ lw7/clean: lw7/CMakeFiles/shader.dir/clean
 .PHONY : lw7/clean
 
 #=============================================================================
-# Target rules for target lw5/CMakeFiles/maze.dir
+# Target rules for target lw5/CMakeFiles/labyrinth.dir
 
 # All Build rule for target.
-lw5/CMakeFiles/maze.dir/all:
-	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/depend
-	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target maze"
-.PHONY : lw5/CMakeFiles/maze.dir/all
+lw5/CMakeFiles/labyrinth.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target labyrinth"
+.PHONY : lw5/CMakeFiles/labyrinth.dir/all
 
 # Build rule for subdir invocation for target.
-lw5/CMakeFiles/maze.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lw5/CMakeFiles/maze.dir/all
+lw5/CMakeFiles/labyrinth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lw5/CMakeFiles/labyrinth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles 0
-.PHONY : lw5/CMakeFiles/maze.dir/rule
+.PHONY : lw5/CMakeFiles/labyrinth.dir/rule
 
 # Convenience name for target.
-maze: lw5/CMakeFiles/maze.dir/rule
-.PHONY : maze
+labyrinth: lw5/CMakeFiles/labyrinth.dir/rule
+.PHONY : labyrinth
 
 # codegen rule for target.
-lw5/CMakeFiles/maze.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=1,2 "Finished codegen for target maze"
-.PHONY : lw5/CMakeFiles/maze.dir/codegen
+lw5/CMakeFiles/labyrinth.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target labyrinth"
+.PHONY : lw5/CMakeFiles/labyrinth.dir/codegen
 
 # clean rule for target.
-lw5/CMakeFiles/maze.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/clean
-.PHONY : lw5/CMakeFiles/maze.dir/clean
+lw5/CMakeFiles/labyrinth.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/clean
+.PHONY : lw5/CMakeFiles/labyrinth.dir/clean
 
 #=============================================================================
 # Target rules for target lw7/CMakeFiles/shader.dir
@@ -159,7 +159,7 @@ lw5/CMakeFiles/maze.dir/clean:
 lw7/CMakeFiles/shader.dir/all:
 	$(MAKE) $(MAKESILENT) -f lw7/CMakeFiles/shader.dir/build.make lw7/CMakeFiles/shader.dir/depend
 	$(MAKE) $(MAKESILENT) -f lw7/CMakeFiles/shader.dir/build.make lw7/CMakeFiles/shader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target shader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target shader"
 .PHONY : lw7/CMakeFiles/shader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -176,7 +176,7 @@ shader: lw7/CMakeFiles/shader.dir/rule
 # codegen rule for target.
 lw7/CMakeFiles/shader.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f lw7/CMakeFiles/shader.dir/build.make lw7/CMakeFiles/shader.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Finished codegen for target shader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vladimir.fedoseev/study/CG/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target shader"
 .PHONY : lw7/CMakeFiles/shader.dir/codegen
 
 # clean rule for target.

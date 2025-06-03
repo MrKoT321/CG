@@ -23,9 +23,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindGLEW.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindGLU.cmake"
+  "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindGLUT.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindOpenGL.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+  "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPkgConfig.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindX11.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/home/vladimir.fedoseev/programs/clion-2025.1.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
@@ -73,6 +75,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lw5/CMakeFiles/maze.dir/DependInfo.cmake"
+  "lw5/CMakeFiles/labyrinth.dir/DependInfo.cmake"
   "lw7/CMakeFiles/shader.dir/DependInfo.cmake"
   )

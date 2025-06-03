@@ -117,25 +117,217 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-lw5/CMakeFiles/maze.dir/rule:
-	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lw5/CMakeFiles/maze.dir/rule
-.PHONY : lw5/CMakeFiles/maze.dir/rule
+lw5/CMakeFiles/labyrinth.dir/rule:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lw5/CMakeFiles/labyrinth.dir/rule
+.PHONY : lw5/CMakeFiles/labyrinth.dir/rule
 
 # Convenience name for target.
-maze: lw5/CMakeFiles/maze.dir/rule
-.PHONY : maze
+labyrinth: lw5/CMakeFiles/labyrinth.dir/rule
+.PHONY : labyrinth
 
 # fast build rule for target.
-maze/fast:
-	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/build
-.PHONY : maze/fast
+labyrinth/fast:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/build
+.PHONY : labyrinth/fast
+
+__/base/BaseWindow.o: __/base/BaseWindow.cpp.o
+.PHONY : __/base/BaseWindow.o
+
+# target to build an object file
+__/base/BaseWindow.cpp.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/base/BaseWindow.cpp.o
+.PHONY : __/base/BaseWindow.cpp.o
+
+__/base/BaseWindow.i: __/base/BaseWindow.cpp.i
+.PHONY : __/base/BaseWindow.i
+
+# target to preprocess a source file
+__/base/BaseWindow.cpp.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/base/BaseWindow.cpp.i
+.PHONY : __/base/BaseWindow.cpp.i
+
+__/base/BaseWindow.s: __/base/BaseWindow.cpp.s
+.PHONY : __/base/BaseWindow.s
+
+# target to generate assembly for a file
+__/base/BaseWindow.cpp.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/base/BaseWindow.cpp.s
+.PHONY : __/base/BaseWindow.cpp.s
+
+__/texture/TextureLoader.o: __/texture/TextureLoader.cpp.o
+.PHONY : __/texture/TextureLoader.o
+
+# target to build an object file
+__/texture/TextureLoader.cpp.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/texture/TextureLoader.cpp.o
+.PHONY : __/texture/TextureLoader.cpp.o
+
+__/texture/TextureLoader.i: __/texture/TextureLoader.cpp.i
+.PHONY : __/texture/TextureLoader.i
+
+# target to preprocess a source file
+__/texture/TextureLoader.cpp.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/texture/TextureLoader.cpp.i
+.PHONY : __/texture/TextureLoader.cpp.i
+
+__/texture/TextureLoader.s: __/texture/TextureLoader.cpp.s
+.PHONY : __/texture/TextureLoader.s
+
+# target to generate assembly for a file
+__/texture/TextureLoader.cpp.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/__/texture/TextureLoader.cpp.s
+.PHONY : __/texture/TextureLoader.cpp.s
+
+labyrinth/Labyrinth.o: labyrinth/Labyrinth.cpp.o
+.PHONY : labyrinth/Labyrinth.o
+
+# target to build an object file
+labyrinth/Labyrinth.cpp.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Labyrinth.cpp.o
+.PHONY : labyrinth/Labyrinth.cpp.o
+
+labyrinth/Labyrinth.i: labyrinth/Labyrinth.cpp.i
+.PHONY : labyrinth/Labyrinth.i
+
+# target to preprocess a source file
+labyrinth/Labyrinth.cpp.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Labyrinth.cpp.i
+.PHONY : labyrinth/Labyrinth.cpp.i
+
+labyrinth/Labyrinth.s: labyrinth/Labyrinth.cpp.s
+.PHONY : labyrinth/Labyrinth.s
+
+# target to generate assembly for a file
+labyrinth/Labyrinth.cpp.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Labyrinth.cpp.s
+.PHONY : labyrinth/Labyrinth.cpp.s
+
+labyrinth/Window.o: labyrinth/Window.cpp.o
+.PHONY : labyrinth/Window.o
+
+# target to build an object file
+labyrinth/Window.cpp.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Window.cpp.o
+.PHONY : labyrinth/Window.cpp.o
+
+labyrinth/Window.i: labyrinth/Window.cpp.i
+.PHONY : labyrinth/Window.i
+
+# target to preprocess a source file
+labyrinth/Window.cpp.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Window.cpp.i
+.PHONY : labyrinth/Window.cpp.i
+
+labyrinth/Window.s: labyrinth/Window.cpp.s
+.PHONY : labyrinth/Window.s
+
+# target to generate assembly for a file
+labyrinth/Window.cpp.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/labyrinth/Window.cpp.s
+.PHONY : labyrinth/Window.cpp.s
+
+lib/soil/src/SOIL.o: lib/soil/src/SOIL.c.o
+.PHONY : lib/soil/src/SOIL.o
+
+# target to build an object file
+lib/soil/src/SOIL.c.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/SOIL.c.o
+.PHONY : lib/soil/src/SOIL.c.o
+
+lib/soil/src/SOIL.i: lib/soil/src/SOIL.c.i
+.PHONY : lib/soil/src/SOIL.i
+
+# target to preprocess a source file
+lib/soil/src/SOIL.c.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/SOIL.c.i
+.PHONY : lib/soil/src/SOIL.c.i
+
+lib/soil/src/SOIL.s: lib/soil/src/SOIL.c.s
+.PHONY : lib/soil/src/SOIL.s
+
+# target to generate assembly for a file
+lib/soil/src/SOIL.c.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/SOIL.c.s
+.PHONY : lib/soil/src/SOIL.c.s
+
+lib/soil/src/image_DXT.o: lib/soil/src/image_DXT.c.o
+.PHONY : lib/soil/src/image_DXT.o
+
+# target to build an object file
+lib/soil/src/image_DXT.c.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_DXT.c.o
+.PHONY : lib/soil/src/image_DXT.c.o
+
+lib/soil/src/image_DXT.i: lib/soil/src/image_DXT.c.i
+.PHONY : lib/soil/src/image_DXT.i
+
+# target to preprocess a source file
+lib/soil/src/image_DXT.c.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_DXT.c.i
+.PHONY : lib/soil/src/image_DXT.c.i
+
+lib/soil/src/image_DXT.s: lib/soil/src/image_DXT.c.s
+.PHONY : lib/soil/src/image_DXT.s
+
+# target to generate assembly for a file
+lib/soil/src/image_DXT.c.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_DXT.c.s
+.PHONY : lib/soil/src/image_DXT.c.s
+
+lib/soil/src/image_helper.o: lib/soil/src/image_helper.c.o
+.PHONY : lib/soil/src/image_helper.o
+
+# target to build an object file
+lib/soil/src/image_helper.c.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_helper.c.o
+.PHONY : lib/soil/src/image_helper.c.o
+
+lib/soil/src/image_helper.i: lib/soil/src/image_helper.c.i
+.PHONY : lib/soil/src/image_helper.i
+
+# target to preprocess a source file
+lib/soil/src/image_helper.c.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_helper.c.i
+.PHONY : lib/soil/src/image_helper.c.i
+
+lib/soil/src/image_helper.s: lib/soil/src/image_helper.c.s
+.PHONY : lib/soil/src/image_helper.s
+
+# target to generate assembly for a file
+lib/soil/src/image_helper.c.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/image_helper.c.s
+.PHONY : lib/soil/src/image_helper.c.s
+
+lib/soil/src/stb_image_aug.o: lib/soil/src/stb_image_aug.c.o
+.PHONY : lib/soil/src/stb_image_aug.o
+
+# target to build an object file
+lib/soil/src/stb_image_aug.c.o:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/stb_image_aug.c.o
+.PHONY : lib/soil/src/stb_image_aug.c.o
+
+lib/soil/src/stb_image_aug.i: lib/soil/src/stb_image_aug.c.i
+.PHONY : lib/soil/src/stb_image_aug.i
+
+# target to preprocess a source file
+lib/soil/src/stb_image_aug.c.i:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/stb_image_aug.c.i
+.PHONY : lib/soil/src/stb_image_aug.c.i
+
+lib/soil/src/stb_image_aug.s: lib/soil/src/stb_image_aug.c.s
+.PHONY : lib/soil/src/stb_image_aug.s
+
+# target to generate assembly for a file
+lib/soil/src/stb_image_aug.c.s:
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/lib/soil/src/stb_image_aug.c.s
+.PHONY : lib/soil/src/stb_image_aug.c.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/main.cpp.o
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +335,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/main.cpp.i
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +343,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/maze.dir/build.make lw5/CMakeFiles/maze.dir/main.cpp.s
+	cd /home/vladimir.fedoseev/study/CG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lw5/CMakeFiles/labyrinth.dir/build.make lw5/CMakeFiles/labyrinth.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +354,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... maze"
+	@echo "... labyrinth"
+	@echo "... __/base/BaseWindow.o"
+	@echo "... __/base/BaseWindow.i"
+	@echo "... __/base/BaseWindow.s"
+	@echo "... __/texture/TextureLoader.o"
+	@echo "... __/texture/TextureLoader.i"
+	@echo "... __/texture/TextureLoader.s"
+	@echo "... labyrinth/Labyrinth.o"
+	@echo "... labyrinth/Labyrinth.i"
+	@echo "... labyrinth/Labyrinth.s"
+	@echo "... labyrinth/Window.o"
+	@echo "... labyrinth/Window.i"
+	@echo "... labyrinth/Window.s"
+	@echo "... lib/soil/src/SOIL.o"
+	@echo "... lib/soil/src/SOIL.i"
+	@echo "... lib/soil/src/SOIL.s"
+	@echo "... lib/soil/src/image_DXT.o"
+	@echo "... lib/soil/src/image_DXT.i"
+	@echo "... lib/soil/src/image_DXT.s"
+	@echo "... lib/soil/src/image_helper.o"
+	@echo "... lib/soil/src/image_helper.i"
+	@echo "... lib/soil/src/image_helper.s"
+	@echo "... lib/soil/src/stb_image_aug.o"
+	@echo "... lib/soil/src/stb_image_aug.i"
+	@echo "... lib/soil/src/stb_image_aug.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
